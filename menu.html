@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess-Menu</title>
+    <link rel="stylesheet" href="./Home_and_Profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        h2{
+            margin-left:60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="floater">
+        <marquee class="qwerty" id="moving" width="100%" height="20px" direction="left" onmouseover="this.stop()"
+            onmouseout="this.start()">
+            <div> <a href="#firstnotification" class = "notsentence">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt exercitationem repudiandae
+                impedit atque suscipit fugit beatae culpa laboriosam voluptates unde!</a></div>
+        </marquee>
+    </div>
+    <div class="stickyone">
+        <div class="heading sticky">
+            <img src="./logo.png" width="70px" height="70px" class="logo">
+            <h1 class="clgname">BMS EDUCATIONAL TRUST HOSTELS</h1>
+            <div class="bthp">
+                <button class="btn"><a href="./index.html">Website</a></button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul type="none">
+                <li><a href="./after_login_home.html">NOTIFICATIONS</a></li>
+                <li><a href="./wardendetails.html">WARDEN DETAILS</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">MESS
+                            <span class="arrow">&#8744</span>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./menu.html">Menu</a>
+                            <a href="./suggestions_form.html">Suggestion Form</a>
+                        </div>
+                </li>
+                <li><a href="./Fee_Details.html">FEE PAYMENT</a></li>
+                <li><a href="./final_complaint.html">COMPLAINTS</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">APPLICATIONS 
+                            <span class="arrow">&#8744</span>
+                            <!-- <i class="fa fa-caret-down"></i> -->
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./leave_application_form.html">Leave Application</a>
+                            <a href="./late_coming_form.html">Late Coming Application</a>
+                        </div>
+                </li>
+                <li style="float: right;" id="profile"><a href="./Profile_Page.html">PROFILE</a></li>
+                <li style="float: right;">
+                    <img src="./profileimg.png" height="30px" width="30px" class="profileimage"
+                        style="margin-top:-5px;">
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <h2>Mess-Menu</h2>
+    <div class="menu">
+        <img src="./menu.png">
+    </div>
+</body>
+</html>

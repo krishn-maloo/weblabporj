@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Home_and_Profile.css">
+    <title>Fee Details</title>
+    <style>
+        .febottom{
+            height: 800px;
+            width: 100%;
+        }
+        .feebottom{
+            height: 720px;
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 100px;
+            border: 2px solid grey;
+        }
+        .fname{
+            height: 50px;
+            width: 100%;
+            background-color: #E3E7ED;
+            color: black;
+            margin-top: -20px;
+        }
+        .fname1{
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        .fbename{
+            height: 0px;
+            width: 95%;
+            margin-left: 2.5%;
+            padding-top: 50px;
+        }
+        .facayear{
+            height: 130px;
+            width: 100%;
+        }
+        .facyear{
+            height: 100px;
+            width: 100%;
+            border: 0px solid lightgray;
+            border-spacing: 0px;
+            /* margin-top: -50px; */
+            
+        }
+        .fhfees{
+            height: 130px;
+            width: 100%;
+        }
+        .fhfe{
+            height: 50px;
+            width: 100%;
+            background-color: #00CCCC ;
+        }
+        .fhf{
+            color: white;
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        .hfet{
+            height: 100px;
+            width: 100%;
+            border: 0px solid lightgray;
+            border-spacing: 0px;
+        }
+        .fmfees{
+            height: 130px;
+            width: 100%;
+        }
+        .lfees{
+            height: 130px;
+            width: 100%;
+        }
+        .button{
+            background-color: red; /* Green */
+            border: none;
+            color: white;
+            padding: 5px 5px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 4px 2px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="floater">
+        <marquee class="qwerty" id="moving" width="100%" height="20px" direction="left" onmouseover="this.stop()"
+            onmouseout="this.start()">
+            <div> <a href="#firstnotification" class = "notsentence">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt exercitationem repudiandae
+                impedit atque suscipit fugit beatae culpa laboriosam voluptates unde!</a></div>
+        </marquee>
+    </div>
+    <div class="stickyone">
+        <div class="heading sticky">
+            <img src="./logo.png" width="70px" height="70px" class="logo">
+            <h1 class="clgname">BMS EDUCATIONAL TRUST HOSTELS</h1>
+            <div class="bthp">
+                <button class="btn"><a href="./index.html">Website</a></button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul type="none">
+                <li><a href="./after_login_home.html">NOTIFICATIONS</a></li>
+                <li><a href="./wardendetails.html">WARDEN DETAILS</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">MESS
+                            <span class="arrow">&#8744</span>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./menu.html">Menu</a>
+                            <a href="./suggestions_form.html">Suggestion Form</a>
+                        </div>
+                </li>
+                <li><a href="./Fee_Details.html">FEE PAYMENT</a></li>
+                <li><a href="./final_complaint.html">COMPLAINTS</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">APPLICATIONS 
+                            <span class="arrow">&#8744</span>
+                            <!-- <i class="fa fa-caret-down"></i> -->
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./leave_application_form.html">Leave Application</a>
+                            <a href="./late_coming_form.html">Late Coming Application</a>
+                        </div>
+                </li>
+                <li style="float: right;" id="profile"><a href="./Profile_Page.html">PROFILE</a></li>
+                <li style="float: right;">
+                    <img src="./profileimg.png" height="30px" width="30px" class="profileimage"
+                        style="margin-top:-5px;">
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- <div class="topone"></div> -->
+    <div class="febottom">
+        <div class="feebottom">
+            <div class="fname">
+                <h3 class = "fname1">RAAVAN - FEE DETAILS</h3>
+            </div>
+            <div class="fbename">
+            <div class="facayear">
+                <div class="fhfe">
+                    <h3 class="fhf">ACADEMIC DETAILS</h3>
+                </div>
+                <table border="1" class="facyear" >
+                    <tbody>
+                        <tr>
+                            <td style="width:20%;">Academic Year</td>
+                            <td>2022-2023</td>
+                        </tr>
+                        <tr>
+                            <td>Year</td>
+                            <td>Second</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="fhfees">
+                <div class="fhfe">
+                    <h3 class="fhf">HOSTEL FEES</h3>
+                </div>
+                <div>
+                    <table border="1" class="hfet">
+                        <tbody>
+                            <tr>
+                                <td style="width:20%;">Amount to be Paid</td>
+                                <td>
+                                    0
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Balance Amount</td>
+                                <td>
+                                    0
+                                    <button class="button">
+                                        <a href="./thanks.html" class="button">Pay Now</a>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="fmfees">
+                <div class="fhfe">
+                    <h3 class="fhf">MESS FEES</h3>
+                </div>
+                <div>
+                    <table border="1" class="hfet">
+                        <tbody>
+                            <tr>
+                                <td style="width:20%;">Amount to be Paid</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Balance Amount</td>
+                                <td>
+                                    0
+                                    <button class="button">
+                                        <a href="./thanks.html" class="button">Pay Now</a>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="lfees">
+                <div class="fhfe" style="background-color:#00CCCC ;">
+                    <h3 class="fhf" >LATE FEES</h3>
+                </div>
+                <div>
+                    <table border="1" class="hfet">
+                        <tbody>
+                            <tr>
+                                <td style="width:20%;">Amount to be Paid</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Balance Amount</td>
+                                <td>
+                                    0
+                                    <button class="button">
+                                        <a href="./thanks.html" class="button">Pay Now</a>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div> 
+        </div> 
+    </div>
+</body>
+</html>
